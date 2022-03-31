@@ -1,0 +1,56 @@
+.container{
+    position:absolute;
+    width:100%;
+    height:auto;
+}
+.pop_up{
+    position: fixed;
+    margin:25%;
+    width:400px;
+    height:auto;
+    border-color: black;
+    border-width: 3px;
+    /* visibility:visible; */
+    /* overflow:auto; */
+    background-color: antiquewhite;
+}
+
+.header {
+    background-color: rgb(43, 197, 197);
+    width:inherit;
+    height:50px;
+}
+.header img{
+    width:50px;
+    margin: 25px;
+}
+h2 {
+    margin: 25px;
+}
+.map-marker {
+    display: flex;
+    margin: 25px;
+}
+.map-marker img {
+    height:20px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 5px;
+}
+h3 {
+    margin: 0px;
+}
+.job {
+    margin: 10px 25px ;
+}
+.edit_profile {
+    display:flex;
+    margin-left: 25px;
+    align-items: center;
+
+
+}
+.edit_profile img {
+    width:25px;
+    margin-right: 5px;
+}
